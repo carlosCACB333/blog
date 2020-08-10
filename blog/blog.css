@@ -1,0 +1,181 @@
+ * {
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .contenedor {
+     width: 98%;
+     margin: auto;
+     max-width: 500px;
+ }
+ 
+ .usuario {
+     border: 1px solid black;
+     margin-bottom: 50px;
+     border-radius: 10px;
+ }
+ 
+ .foto {
+     margin-right: 10px;
+     border-radius: 100%;
+ }
+ 
+ .nombre {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .cabecera {
+     display: flex;
+     margin: 10px;
+ }
+ 
+ .comentario {
+     margin: 0px 10px 0 10px;
+ }
+ 
+ header {
+     -webkit-box-shadow: -1px 20px 29px -3px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: -1px 20px 29px -3px rgba(0, 0, 0, 0.75);
+     box-shadow: -1px 20px 29px -3px rgba(0, 0, 0, 0.75);
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 50px;
+     background: rgb(2, 39, 59);
+     background: radial-gradient(circle, rgba(2, 39, 59, 1) 0%, rgba(0, 86, 149, 1) 39%, rgba(0, 0, 0, 1) 100%)
+ }
+ 
+ header>div {
+     display: flex;
+     align-items: center;
+     margin-right: 20px;
+ }
+ 
+ .redondear {
+     border: 1px solid #00b1ca;
+     border-radius: 100%;
+ }
+ 
+ textarea {
+     width: 100%;
+     border-radius: 10px;
+ }
+ 
+ form>div {
+     display: flex;
+     align-items: center;
+ }
+ 
+ input[type="file"] {
+     display: none;
+ }
+ 
+ #formulario input[type="submit"] {
+     width: 100%;
+     border: solid white;
+     margin: 10px 0;
+     height: 50px;
+ }
+ 
+ #formulario input[type="submit"]:hover {
+     color: white;
+     background-image: linear-gradient(to right top, #051937, #00466d, #007aa0, #00b1ca, #12ebe7);
+ }
+ 
+ #seleccionar {
+     height: 50px;
+     margin: 10px 0;
+     justify-content: center;
+     cursor: pointer;
+     background-color: gainsboro;
+ }
+ 
+ #seleccionar:hover {
+     background-image: linear-gradient(to right top, #051937, #00466d, #007aa0, #00b1ca, #12ebe7);
+     color: white;
+ }
+ 
+ #salir {
+     display: none;
+     position: absolute;
+     right: 5px;
+     font-size: 39px;
+     padding: 0 10px;
+     background: transparent;
+     border: 1px solid gray;
+     top: 5px;
+ }
+ 
+ #salir:hover {
+     background-color: #00466d;
+ }
+ 
+ .publicar figure {
+     position: relative;
+ }
+ 
+ #perfil {
+     box-sizing: border-box;
+ }
+ 
+ #perfil:hover {
+     max-width: 100px;
+     border: #00b1ca 5px solid;
+ }
+ 
+ #datos {
+     color: powderblue;
+     cursor: pointer
+ }
+ 
+ #desplegar {
+     position: relative;
+ }
+ 
+ #desplegar form {
+     display: none;
+     background-color: #00466d;
+     position: absolute;
+     right: -20px;
+     top: 32px;
+ }
+ 
+ td {
+     padding: 5px 10px;
+     text-align: center;
+     color: white;
+ }
+ 
+ a {
+     color: aliceblue;
+     display: block;
+     padding: 12px;
+     margin-bottom: 10px;
+     background-color: #DF013A;
+ }
+ 
+ a:hover {
+     background-color: #FE2E64;
+ }
+ 
+ #desplegar input[type='submit'] {
+     background-color: blue;
+     color: whitesmoke;
+     border: none;
+     width: 100%;
+     margin: 10px 0;
+     height: 50px;
+ }
+ 
+ #desplegar input[type='submit']:hover {
+     background-color: #0040FF;
+ }
+ 
+ #desplegar input {
+     height: 30px;
+     width: 250px;
+     background-color: #00466d;
+     border: 1px solid white;
+     color: aqua;
+ }

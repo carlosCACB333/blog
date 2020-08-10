@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 10px 8%;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.red:hover {
+    box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.75);
+}
+
+.red a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.red.face {
+    background-image: url('fc.png');
+    background-color: #4267B2;
+    background-position: left;
+}
+
+.red.tw {
+    background-image: url('tw.png');
+    background-color: #26A6D1;
+    background-position: left;
+}
+
+.division {
+    margin: 45px 8%;
+    height: 1px;
+    background-color: #85929E;
+    position: relative;
+}
+
+.division p {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    background: white;
+    padding: 0 10px;
+}
+
+form {
+    background-color: white;
+    padding: 40px 0;
+    box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grupo {
+    position: relative;
+    margin: 10px 8%;
+}
+
+input {
+    background: none;
+    color: #154360;
+    font-size: 18px;
+    padding-left: 5px;
+    display: block;
+    border-radius: 6px;
+    width: 98%;
+    height: 50px;
+    border: 1px solid #85929E;
+}
+
+input:focus {
+    border: 2px solid #2E86C1;
+    outline: none;
+}
+
+label {
+    position: absolute;
+    top: 18px;
+    left: 5px;
+    transition: 0.3s ease;
+    pointer-events: none;
+    color: #85929E;
+}
+
+
+/*input:focus~label {
+    top: 5px;
+    left: 5px;
+    color: #2874A6;
+    font-size: 12px;
+}
+*/
+
+.primero {
+    font-size: 16px;
+    margin: 10px 8%;
+    width: 84%;
+    height: 50px;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #fc466b;
+    cursor: pointer;
+}
+
+.primero:hover {
+    box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.75);
+}
+
+.segundo {
+    font-size: 16px;
+    margin: 10px 8%;
+    width: 84%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #fc466b;
+    cursor: pointer;
+}
+
+.segundo:hover {
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: white;
+    box-shadow: 0px 0px 24px -5px rgba(0, 0, 0, 0.75);
+}
+
+.foco {
+    top: 5px;
+    left: 5px;
+    color: #2E86C1;
+    font-size: 12px;
+}
+
+.form>a {
+    text-decoration: none;
+}
+
+.recuperar {
+    display: flex;
+    justify-content: center;
+    margin: 5px 8%;
+}
+
+.recuperar a {
+    color: rgb(3, 119, 158);
+    justify-content: center;
+    margin: 0 8% 20px 8%;
+}

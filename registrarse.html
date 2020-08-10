@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="registrarse.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form action="registrarse.php" method="POST" id="form">
+        <div class="form">
+            <h1>Registrarse</h1>
+            <div class="red face">
+                <a href="#">Registrarse con Facebook</a>
+            </div>
+            <div class="red tw">
+                <a href="#">Registrarse con Twitter</a>
+            </div>
+
+            <div class="division">
+                <p>o</p>
+            </div>
+            <div class="grupo">
+                <input type="text" class="caja" id="nombre" name="nombre" autocomplete="off" required>
+                <label for="">Nombre:</label>
+            </div>
+
+            <div class="grupo">
+                <input type="email" class="caja" id="email" name="email" required>
+                <label for="">Correo Electrónico:</label>
+            </div>
+
+            <div class="grupo">
+                <input type="password" class="caja" id="contraseña" name="clave" required>
+                <label for="">Contraseña:</label>
+            </div>
+
+            <button type="submit" class="primero"> Registrarse</button>
+            <button type="button" class="segundo" OnClick="location.href='login.html'">Iniciar sesión</button>
+
+
+        </div>
+    </form>
+
+    <script src="animacion.js"></script>
+
+
+</body>
+
+</html>

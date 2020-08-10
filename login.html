@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="registrarse.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="sesion.php" method="POST" id="form">
+        <div class="form">
+            <h1>Iniciar Sesión</h1>
+            <div class="red face">
+                <a href="#">Iniciar sesión con Facebook</a>
+            </div>
+            <div class="red tw">
+                <a href="#">Iniciar sesión con Twitter</a>
+            </div>
+
+            <div class="division">
+                <p>o</p>
+            </div>
+
+            <div class="grupo">
+                <input type="email" class="caja" id="email" name='email' required>
+                <label for="">Correo Electrónico:</label>
+            </div>
+
+            <div class="grupo">
+                <input type="password" class="caja" id="contraseña" name="clave" required>
+                <label for="">Contraseña:</label>
+            </div>
+
+            <button type="submit" class="primero">Iniciar sesión</button>
+
+            <div class=recuperar ">
+                <a href="# "> ¿Olvisdate tu contraseña?</a>
+            </div>
+
+            <button type="button " class="segundo " OnClick="location.href='registrarse.html' "> Registrarse</button>
+
+
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js " integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin=" anonymous "></script>
+
+    <script src="animacion.js "></script>
+
+
+</body>
+
+</html>
